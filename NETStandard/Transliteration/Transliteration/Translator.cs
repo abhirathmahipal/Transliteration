@@ -12,6 +12,8 @@ namespace Transliteration
             // Try finding source lang without having the user to input
             // if the language map does not exist, (say Eng -> Tamil)
             // notify the user.
+
+            // right now just transliterate from English to given language
         }
         
         string translate(string text_to_translate)
